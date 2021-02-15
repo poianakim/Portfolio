@@ -1,5 +1,12 @@
 @import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css")
 
+@media screen and (min-width: 601px) {
+    #nav li {
+    display: block;
+    }
+}
+
+
 body{
  color: #232020;
  background: #f4f4f4;
