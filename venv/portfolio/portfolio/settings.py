@@ -43,7 +43,6 @@ INSTALLED_APPS = [
     'projects',
     'pages',
 
-
 ]
 
 MIDDLEWARE = [
