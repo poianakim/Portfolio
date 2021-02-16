@@ -10,8 +10,8 @@ six==1.15.0
 toml==0.10.1
 wrapt==1.12.1
 
-psycopg2==2.6.2
+psycopg2==2.8.6
 whitenoise==3.2.2
-dj-database-url==0.4.1
+dj-database-url==2.7.5
 Django==2.0
 gunicorn==19.6.0
