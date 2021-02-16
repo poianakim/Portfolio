@@ -1,0 +1,33 @@
+<!doctype html>
+{% load static %}
+<html>
+<head>
+    <title>POIANA KIM's PORTFOLIO</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/portfolio.css' %}">
+    <link rel="stylesheet" href="{% static 'css/projects.css' %}">
+    <script src="https://kit.fontawesome.com/7632f3c760.js" crossorigin="anonymous"></script>
+<!--    <script src="https://kit.fontawesome.com/a076d05399.js"></script>-->
+</head>
+<body>
+<h2 id="banner">POIANA KIM</h2>
+{% include 'nav.html' %}
+<div class="container">
+
+    <div class="page-title">
+        {% block title %}
+        {% endblock %}
+    </div>
+    <hr>
+
+    {% block content %}
+    replace me
+    {% endblock %}
+
+</div>
+<footer>&copy POIANA KIM</footer>
+
+</body>
+</html>
