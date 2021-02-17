@@ -8,10 +8,13 @@ https://docs.djangoproject.com/en/3.1/howto/deployment/wsgi/
 """
 
 import os
+import sys
 
 from django.core.wsgi import get_wsgi_application
 
-# os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'portfolio.settings')
-os.environ["DJANGO_SETTINGS_MODULE"] = "portfolio.settings"
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'portfolio.settings')
+# os.environ["DJANGO_SETTINGS_MODULE"] = "portfolio.settings"
+sys.path.append('venv/portfolio/portfolio')
+#repo root path
 
 application = get_wsgi_application()
