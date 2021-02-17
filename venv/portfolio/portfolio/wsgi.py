@@ -12,7 +12,7 @@ import sys
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'portfolio.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'portfolio.portfolio.settings')
 # os.environ["DJANGO_SETTINGS_MODULE"] = "portfolio.settings"
 sys.path.append('venv/portfolio/portfolio')
 #repo root path
